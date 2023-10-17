@@ -1,65 +1,84 @@
+
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
- <title>Curriculo MIcaela</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+PORTFOLIO
+  </title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
- <h1>Micaela Azeredo</h1>
- <img src="assets/profile.png" alt="Foto perfil">
- <p>Eu sou uma estudante em front-end e Javascript pelo senac, infelizmente sem experiencias <br>
-   profissionais, porem sempre aprimorando meus conhecimentos e habilidades para me destacar na area.</p>
- <table>
-   <thead>
-     <tr>
-       <th>Experiencias</th>
-       <th></th>
-       <th></th>
-     </tr>
-   </thead>
-   <tbody>
-     <tr>
-       <td>Nenhuma</td>
-     </tr>
-   </tbody>
- </table>
- <table>
-   <thead>
-     <tr>
-       <th>Ano</th>
-       <tr>
-         <td>1° Ensino Médio</td>
-         <tr>
-       <th>Escola</th>
-       <tr>
-       <td>Villa Lobos</td>
-       <tr>
-         <th>Datas</th>
-         <tr>
-         <td>2023 a 2025</td>
-     </tr>
-   </thead>
-   <tbody>
-     <tr>
-     </tr>
-   </tbody>
- </table>
- <ul>
-   <li>Curso Javascript (Concluido) </li>
-   <li>Curso Front End (Cursando) </li>
-   <li>Informatica (Concluido) </li>
-   <li>Rotinas Administrativas (Concluido) </li>
-   <li>Marketing Digital (Concluido) </li>
- </ul>
- <p><strong>Objetivo: </strong>Estou em busca de uma oportunidade para trabalhar na área
-  de TI e conhecimento no desenvolvimento web.</p>
-  <hr/>
-  <!-- Formulario -->
-  <form action="/" method="post">
-  <label for=>Nome</label>
-  <input type="text" name="">
-  <label for=>Email</label>
-  <input type="email" name="" id="">
-  <input type="submit">
-</form>
-  </html>
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+         <li><a href="#sobre-mim">sobre-mim</a></li>
+          <li class="nav__item">
+          </li>
+          <li class="nav__item">
+            <a href="#contato">contato</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Micaela A. Santos</span>
+        </h1>
+        <p>Uma desenvolvedora fullstack em processo.</p>
+        <a href="#contato">Entre em contato</a>
+      </div>
+    </div>
+  </header>
+  <main role="main">
+    <section class="sobre-mim" id="sobre-mim">
+      <div class="row">
+        <h2>sobre-mim</h2>
+        <div class="sobre-mim__content">
+          <div class="sobre-mim__text">
+            <p>
+                Eu sou uma estudante em front-end e Javascript pelo senac, infelizmente sem experiencias
+                profissionais, porem sempre aprimorando meus conhecimentos e habilidades para me destacar na area.
+            </p>
+            <a href="depois eu boto">Curriculo</a>
+          </div>
+          <div class="sobre-mim__photo-container">
+            <img class="sobre-mim__photo" src="assets/profile.png" alt="foto" />
+          </div>
+        </div>
+      </div>
+    </section>
+  <section class="contato" id="contato">
+    <div class="row">
+      <h2>Entre em contato</h2>
+      <div class="contato__info">
+        <p>
+Se você tem alguma duvida ou gostaria de contratar meus serviços, fique a vontade para me mandar uma mensagem pelo email, ou ver meu github!
+Espero te ver em breve.
+        </p>
+        <a href="mailto:you@example.com">micaelaas3105@gmail.com</a>
+      </div>
+    </div>
+  </section>
+  <footer role="info" class="footer">
+    <div class="row">
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/naekkoch" title="Link para github">
+            <img src="assets/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="depois eu boto">
+            <img src="assets/linkedin.svg" title="Link para Linkedin" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+    </ul>
+  </a>
+</body>
+
+</html>
