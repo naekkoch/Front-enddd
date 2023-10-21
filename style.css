@@ -276,7 +276,32 @@ a {
     transition: all .2s;
     outline: 2px solid transparent;
 }
+.topbar {
+    background-color: #9f00ad;
+    height: 8vh;
+    line-height: 8vh;
 
+}
+.lista {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.item {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 2vh;
+    background-color: #d43fe2;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.link {
+color: #fff;
+text-decoration: none;
+
+}
 .nav {
     display: flex;
     justify-content: flex-end;
@@ -301,7 +326,8 @@ a {
 }
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4));
-    height: 100vh;
+    height: 195vh;
+    top:0;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -437,11 +463,12 @@ input[type="checkbox"]:checked ~.check{
     height: 24px;
     border-radius: 50%;
     transition: 0.5s;
+    
 }
 input[type="checkbox"]:checked ~.check::before {
     transform: translateX(-50px);
 }  
-.check::after{
+.check::after {
     content: '';
     position: absolute;
     top: 3px;
@@ -456,4 +483,10 @@ input[type="checkbox"]:checked ~.check::before {
 
 input[type="checkbox"]:checked ~.check::after {
     transform: translateX(0px);
+}
+
+.light {
+    background-color: #fff !important;
+    color: black !important;
+    z-index: 1;
 }
